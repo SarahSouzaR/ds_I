@@ -1,0 +1,4 @@
+G:\Etec II - 2 SEM\DS I\Empregados\Empregado\Empregado\bin\Debug\Empregado.exe
+G:\Etec II - 2 SEM\DS I\Empregados\Empregado\Empregado\bin\Debug\Empregado.pdb
+G:\Etec II - 2 SEM\DS I\Empregados\Empregado\Empregado\obj\x86\Debug\Empregado.exe
+G:\Etec II - 2 SEM\DS I\Empregados\Empregado\Empregado\obj\x86\Debug\Empregado.pdb

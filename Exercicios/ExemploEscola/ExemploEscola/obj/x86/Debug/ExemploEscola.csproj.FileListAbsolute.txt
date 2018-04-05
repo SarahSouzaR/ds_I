@@ -1,0 +1,6 @@
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\ExemploEscola\bin\Debug\ExemploEscola.exe
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\ExemploEscola\bin\Debug\ExemploEscola.pdb
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\ExemploEscola\obj\x86\Debug\ExemploEscola.exe
+C:\Users\Aluno_2\AppData\Local\Temporary Projects\ExemploEscola\obj\x86\Debug\ExemploEscola.pdb
+G:\Etec II - 2 SEM\DS I\ExemploEscola\ExemploEscola\obj\x86\Debug\ExemploEscola.exe
+G:\Etec II - 2 SEM\DS I\ExemploEscola\ExemploEscola\obj\x86\Debug\ExemploEscola.pdb

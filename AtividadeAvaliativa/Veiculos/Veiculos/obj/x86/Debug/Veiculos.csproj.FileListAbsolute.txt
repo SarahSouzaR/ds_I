@@ -1,0 +1,7 @@
+C:\Users\Aluno\AppData\Local\Temporary Projects\Veiculos\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Aluno\AppData\Local\Temporary Projects\Veiculos\bin\Debug\Veiculos.exe
+C:\Users\Aluno\AppData\Local\Temporary Projects\Veiculos\bin\Debug\Veiculos.pdb
+C:\Users\Aluno\AppData\Local\Temporary Projects\Veiculos\obj\x86\Debug\Veiculos.exe
+C:\Users\Aluno\AppData\Local\Temporary Projects\Veiculos\obj\x86\Debug\Veiculos.pdb
+E:\Etec II - 2 SEM\DS I\Veiculos\Veiculos\obj\x86\Debug\Veiculos.exe
+E:\Etec II - 2 SEM\DS I\Veiculos\Veiculos\obj\x86\Debug\Veiculos.pdb

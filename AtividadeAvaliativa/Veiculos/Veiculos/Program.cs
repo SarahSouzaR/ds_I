@@ -70,7 +70,13 @@ namespace Veiculos
             Console.WriteLine(v6.descricao());
             Console.WriteLine(v6.locomover());
             Console.WriteLine(v6.abastecer());
-
+            Console.WriteLine("\n");
+            Console.WriteLine(v6.decolar(16));
+            Console.WriteLine("\n");
+            Console.WriteLine(v6.decolar(false));
+            Console.WriteLine("\n");
+            Console.WriteLine(v6.decolar("sol"));
+    
             Console.ReadKey();
         }
     }

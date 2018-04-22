@@ -1,0 +1,7 @@
+G:\Etec II - 2 SEM\DS I\PrimeiraTela\PrimeiraTela\obj\x86\Debug\PrimeiraTela.Form1.resources
+G:\Etec II - 2 SEM\DS I\PrimeiraTela\PrimeiraTela\obj\x86\Debug\PrimeiraTela.Properties.Resources.resources
+G:\Etec II - 2 SEM\DS I\PrimeiraTela\PrimeiraTela\obj\x86\Debug\PrimeiraTela.csproj.GenerateResource.Cache
+G:\Etec II - 2 SEM\DS I\PrimeiraTela\PrimeiraTela\bin\Debug\PrimeiraTela.exe
+G:\Etec II - 2 SEM\DS I\PrimeiraTela\PrimeiraTela\bin\Debug\PrimeiraTela.pdb
+G:\Etec II - 2 SEM\DS I\PrimeiraTela\PrimeiraTela\obj\x86\Debug\PrimeiraTela.exe
+G:\Etec II - 2 SEM\DS I\PrimeiraTela\PrimeiraTela\obj\x86\Debug\PrimeiraTela.pdb

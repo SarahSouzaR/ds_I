@@ -1,0 +1,9 @@
+C:\Users\Sarah\AppData\Local\Temporary Projects\MaiorDeTres\bin\Debug\MaiorDeTres.exe
+C:\Users\Sarah\AppData\Local\Temporary Projects\MaiorDeTres\bin\Debug\MaiorDeTres.pdb
+C:\Users\Sarah\AppData\Local\Temporary Projects\MaiorDeTres\obj\x86\Debug\MaiorDeTres.frmMaiorValorDeTres.resources
+C:\Users\Sarah\AppData\Local\Temporary Projects\MaiorDeTres\obj\x86\Debug\MaiorDeTres.Properties.Resources.resources
+C:\Users\Sarah\AppData\Local\Temporary Projects\MaiorDeTres\obj\x86\Debug\MaiorDeTres.csproj.GenerateResource.Cache
+C:\Users\Sarah\AppData\Local\Temporary Projects\MaiorDeTres\obj\x86\Debug\MaiorDeTres.exe
+C:\Users\Sarah\AppData\Local\Temporary Projects\MaiorDeTres\obj\x86\Debug\MaiorDeTres.pdb
+F:\Etec II - 2 SEM\DS I\MaiorDeTres\MaiorDeTres\obj\x86\Debug\MaiorDeTres.exe
+F:\Etec II - 2 SEM\DS I\MaiorDeTres\MaiorDeTres\obj\x86\Debug\MaiorDeTres.pdb

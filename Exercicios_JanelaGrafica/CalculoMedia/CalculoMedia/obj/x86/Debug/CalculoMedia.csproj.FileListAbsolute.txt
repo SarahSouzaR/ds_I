@@ -1,0 +1,9 @@
+C:\Users\Sarah\AppData\Local\Temporary Projects\CalculoMedia\bin\Debug\CalculoMedia.exe
+C:\Users\Sarah\AppData\Local\Temporary Projects\CalculoMedia\bin\Debug\CalculoMedia.pdb
+C:\Users\Sarah\AppData\Local\Temporary Projects\CalculoMedia\obj\x86\Debug\CalculoMedia.frmMedia.resources
+C:\Users\Sarah\AppData\Local\Temporary Projects\CalculoMedia\obj\x86\Debug\CalculoMedia.Properties.Resources.resources
+C:\Users\Sarah\AppData\Local\Temporary Projects\CalculoMedia\obj\x86\Debug\CalculoMedia.csproj.GenerateResource.Cache
+C:\Users\Sarah\AppData\Local\Temporary Projects\CalculoMedia\obj\x86\Debug\CalculoMedia.exe
+C:\Users\Sarah\AppData\Local\Temporary Projects\CalculoMedia\obj\x86\Debug\CalculoMedia.pdb
+F:\Etec II - 2 SEM\DS I\CalculoMedia\CalculoMedia\obj\x86\Debug\CalculoMedia.exe
+F:\Etec II - 2 SEM\DS I\CalculoMedia\CalculoMedia\obj\x86\Debug\CalculoMedia.pdb

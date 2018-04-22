@@ -1,0 +1,9 @@
+C:\Users\Sarah\AppData\Local\Temporary Projects\CalculadoraBasica\obj\x86\Debug\CalculadoraBasica.frmPrincipal.resources
+C:\Users\Sarah\AppData\Local\Temporary Projects\CalculadoraBasica\obj\x86\Debug\CalculadoraBasica.Properties.Resources.resources
+C:\Users\Sarah\AppData\Local\Temporary Projects\CalculadoraBasica\obj\x86\Debug\CalculadoraBasica.csproj.GenerateResource.Cache
+C:\Users\Sarah\AppData\Local\Temporary Projects\CalculadoraBasica\bin\Debug\CalculadoraBasica.exe
+C:\Users\Sarah\AppData\Local\Temporary Projects\CalculadoraBasica\bin\Debug\CalculadoraBasica.pdb
+C:\Users\Sarah\AppData\Local\Temporary Projects\CalculadoraBasica\obj\x86\Debug\CalculadoraBasica.exe
+C:\Users\Sarah\AppData\Local\Temporary Projects\CalculadoraBasica\obj\x86\Debug\CalculadoraBasica.pdb
+F:\Etec II - 2 SEM\DS I\CalculadoraBasica\CalculadoraBasica\obj\x86\Debug\CalculadoraBasica.exe
+F:\Etec II - 2 SEM\DS I\CalculadoraBasica\CalculadoraBasica\obj\x86\Debug\CalculadoraBasica.pdb

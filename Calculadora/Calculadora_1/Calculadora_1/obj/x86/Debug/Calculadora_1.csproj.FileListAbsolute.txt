@@ -1,0 +1,18 @@
+C:\Users\Aluno\AppData\Local\Temporary Projects\Calculadora_1\bin\Debug\Calculadora_1.exe
+C:\Users\Aluno\AppData\Local\Temporary Projects\Calculadora_1\bin\Debug\Calculadora_1.pdb
+C:\Users\Aluno\AppData\Local\Temporary Projects\Calculadora_1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Aluno\AppData\Local\Temporary Projects\Calculadora_1\obj\x86\Debug\Calculadora_1.Form1.resources
+C:\Users\Aluno\AppData\Local\Temporary Projects\Calculadora_1\obj\x86\Debug\Calculadora_1.Properties.Resources.resources
+C:\Users\Aluno\AppData\Local\Temporary Projects\Calculadora_1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Aluno\AppData\Local\Temporary Projects\Calculadora_1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Aluno\AppData\Local\Temporary Projects\Calculadora_1\obj\x86\Debug\Calculadora_1.exe
+C:\Users\Aluno\AppData\Local\Temporary Projects\Calculadora_1\obj\x86\Debug\Calculadora_1.pdb
+E:\Etec II - 2 SEM\DS I\Calculadora_1\Calculadora_1\obj\x86\Debug\Calculadora_1.exe
+E:\Etec II - 2 SEM\DS I\Calculadora_1\Calculadora_1\obj\x86\Debug\Calculadora_1.pdb
+E:\Etec II - 2 SEM\DS I\Calculadora_1\Calculadora_1\bin\Debug\Calculadora_1.exe
+E:\Etec II - 2 SEM\DS I\Calculadora_1\Calculadora_1\bin\Debug\Calculadora_1.pdb
+E:\Etec II - 2 SEM\DS I\Calculadora_1\Calculadora_1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Etec II - 2 SEM\DS I\Calculadora_1\Calculadora_1\obj\x86\Debug\Calculadora_1.Form1.resources
+E:\Etec II - 2 SEM\DS I\Calculadora_1\Calculadora_1\obj\x86\Debug\Calculadora_1.Properties.Resources.resources
+E:\Etec II - 2 SEM\DS I\Calculadora_1\Calculadora_1\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Etec II - 2 SEM\DS I\Calculadora_1\Calculadora_1\obj\x86\Debug\GenerateResource.write.1.tlog

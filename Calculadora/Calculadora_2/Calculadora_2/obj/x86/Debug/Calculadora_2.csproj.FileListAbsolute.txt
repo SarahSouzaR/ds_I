@@ -7,3 +7,10 @@ E:\Etec II - 2 SEM\DS I\Calculadora_2\Calculadora_2\obj\x86\Debug\GenerateResour
 E:\Etec II - 2 SEM\DS I\Calculadora_2\Calculadora_2\obj\x86\Debug\GenerateResource.write.1.tlog
 E:\Etec II - 2 SEM\DS I\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.exe
 E:\Etec II - 2 SEM\DS I\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.pdb
+F:\Etec II - 2 SEM\DS I\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.exe
+F:\Etec II - 2 SEM\DS I\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.pdb
+F:\Etec II - 2 SEM\DS I\Calculadora_2\Calculadora_2\bin\Debug\Calculadora_2.exe
+F:\Etec II - 2 SEM\DS I\Calculadora_2\Calculadora_2\bin\Debug\Calculadora_2.pdb
+F:\Etec II - 2 SEM\DS I\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.frmCalculadora.resources
+F:\Etec II - 2 SEM\DS I\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.Properties.Resources.resources
+F:\Etec II - 2 SEM\DS I\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.csproj.GenerateResource.Cache

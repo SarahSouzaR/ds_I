@@ -52,5 +52,10 @@ namespace Calculadora_1
             lblResultado.Text = div.ToString();
         }
 
+        private void lblResultado_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

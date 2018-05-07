@@ -11,7 +11,7 @@ namespace Calculadora_2
 {
     public partial class frmCalculadora : Form
     {
-        double n1 = 0, n2 = 0, resultado = 0, variavel1 = 0; 
+        double n1 = 0, n2 = 0, n3 = 0, resultado = 0, variavel1 = 0, variavel2 = 0; 
         //n1 = primeiro número que clicar, n2 o segundo
         //variavel1 para armazenar o primeiro número e a operação do botão
         
@@ -37,7 +37,6 @@ namespace Calculadora_2
                     n2 = 1;
                 else n1 = 1;
             }
-            //txbVisor.Text = txbVisor.Text + 1;
         }
 
         private void btn2_Click(object sender, EventArgs e)
@@ -52,7 +51,6 @@ namespace Calculadora_2
                     n2 = 2;
                 else n1 = 2;
             } 
-            //txbVisor.Text = txbVisor.Text + 2;
         }
 
         private void btn3_Click(object sender, EventArgs e)
@@ -67,7 +65,6 @@ namespace Calculadora_2
                     n2 = 3;
                 else n1 = 3;
             } 
-            //txbVisor.Text = txbVisor.Text + 3;
         }
 
         private void btn4_Click(object sender, EventArgs e)
@@ -81,8 +78,7 @@ namespace Calculadora_2
                 if (n1 != 0)
                     n2 = 4;
                 else n1 = 4;
-            } 
-            //txbVisor.Text = txbVisor.Text + 4;
+            }
         }
 
         private void btn5_Click(object sender, EventArgs e)
@@ -97,7 +93,6 @@ namespace Calculadora_2
                     n2 = 5;
                 else n1 = 5;
             } 
-            //txbVisor.Text = txbVisor.Text + 5;
         }
 
         private void btn6_Click(object sender, EventArgs e)
@@ -112,7 +107,6 @@ namespace Calculadora_2
                     n2 = 6;
                 else n1 = 6;
             } 
-            //txbVisor.Text = txbVisor.Text + 6;
         }
 
         private void btn7_Click(object sender, EventArgs e)
@@ -126,8 +120,7 @@ namespace Calculadora_2
                 if (n1 != 0)
                     n2 = 7;
                 else n1 = 7;
-            } 
-            //txbVisor.Text = txbVisor.Text + 7;
+            }
         }
 
         private void btn8_Click(object sender, EventArgs e)
@@ -141,8 +134,7 @@ namespace Calculadora_2
                 if (n1 != 0)
                     n2 = 8;
                 else n1 = 8;
-            } 
-            //txbVisor.Text = txbVisor.Text + 8;
+            }
         }
 
         private void btn9_Click(object sender, EventArgs e)
@@ -156,8 +148,7 @@ namespace Calculadora_2
                 if (n1 != 0)
                     n2 = 9;
                 else n1 = 9;
-            } 
-            //txbVisor.Text = txbVisor.Text + 9;
+            }
         }
 
         private void btn0_Click(object sender, EventArgs e)
@@ -173,6 +164,8 @@ namespace Calculadora_2
                 else n1 = 0;
             } 
             //txbVisor.Text = txbVisor.Text + 0;
+            /*mais simples e também funciona, mas na hora de fazer a expressão
+             pode ser melhor para verificar os valores e na entrada de mais números*/ 
         }
 
         private void btnAdicao_Click(object sender, EventArgs e)

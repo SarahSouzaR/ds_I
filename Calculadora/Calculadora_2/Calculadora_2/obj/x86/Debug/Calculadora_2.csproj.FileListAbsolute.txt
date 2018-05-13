@@ -13,4 +13,22 @@ F:\Etec II - 2 SEM\DS I\Calculadora_2\Calculadora_2\bin\Debug\Calculadora_2.exe
 F:\Etec II - 2 SEM\DS I\Calculadora_2\Calculadora_2\bin\Debug\Calculadora_2.pdb
 F:\Etec II - 2 SEM\DS I\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.frmCalculadora.resources
 F:\Etec II - 2 SEM\DS I\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.Properties.Resources.resources
-F:\Etec II - 2 SEM\DS I\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.csproj.GenerateResource.Cache
+F:\Etec II - 2 SEM\DS I\Calculadora_2\Calculadora_2\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Etec II - 2 SEM\DS I\Calculadora_2\Calculadora_2\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Etec II - 2 SEM\DS I\Calculadora_2\Calculadora_2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Sarah\Desktop\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.exe
+C:\Users\Sarah\Desktop\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.pdb
+C:\Users\Sarah\Desktop\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.csprojResolveAssemblyReference.cache
+C:\Users\Sarah\Desktop\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.frmCalculadora.resources
+C:\Users\Sarah\Desktop\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.Properties.Resources.resources
+C:\Users\Sarah\Desktop\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.csproj.GenerateResource.Cache
+C:\Users\Sarah\Desktop\Calculadora_2\Calculadora_2\bin\Debug\Calculadora_2.exe
+C:\Users\Sarah\Desktop\Calculadora_2\Calculadora_2\bin\Debug\Calculadora_2.pdb
+F:\Etec II - 2 SEM\DS I\Calculadora Funcionando\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.exe
+F:\Etec II - 2 SEM\DS I\Calculadora Funcionando\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.pdb
+F:\Etec II - 2 SEM\DS I\Calculadora Funcionando\Calculadora_2\Calculadora_2\bin\Debug\Calculadora_2.exe
+F:\Etec II - 2 SEM\DS I\Calculadora Funcionando\Calculadora_2\Calculadora_2\bin\Debug\Calculadora_2.pdb
+F:\Etec II - 2 SEM\DS I\Calculadora Funcionando\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.csprojResolveAssemblyReference.cache
+F:\Etec II - 2 SEM\DS I\Calculadora Funcionando\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.frmCalculadora.resources
+F:\Etec II - 2 SEM\DS I\Calculadora Funcionando\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.Properties.Resources.resources
+F:\Etec II - 2 SEM\DS I\Calculadora Funcionando\Calculadora_2\Calculadora_2\obj\x86\Debug\Calculadora_2.csproj.GenerateResource.Cache

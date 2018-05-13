@@ -6,227 +6,141 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.CodeDom.Compiler;
+using Microsoft.CSharp;
+using System.Reflection;
 
 namespace Calculadora_2
 {
     public partial class frmCalculadora : Form
     {
-        double n1 = 0, n2 = 0, n3 = 0, resultado = 0, variavel1 = 0, variavel2 = 0; 
-        //n1 = primeiro número que clicar, n2 o segundo
-        //variavel1 para armazenar o primeiro número e a operação do botão
-        
-        int operacao;
-
-        bool res = false; //string booleana para verificar se tem algo no visor
-
-
         public frmCalculadora()
         {
             InitializeComponent();
         }
 
+        private double ProcessarCommando(string command)
+        {
+            //Cria um provedor de Código C#
+            CSharpCodeProvider mCodeProvider = new CSharpCodeProvider();
+            // Cria os parmaetros para a compilação origem
+            CompilerParameters cp = new CompilerParameters();
+            cp.GenerateExecutable = false;    //Não precisa criar um arquivo EXE
+            cp.GenerateInMemory = true;       //Cria um na memória
+            cp.OutputAssembly = "TempModule"; // Isso não é necessário, no entanto, se usado ​​repetidamente, faz com que o CLR não precisa carregar uma novo assembly cada vez que a função é executada.
+            // A string abaixo é basicamente a casca do programa C #, que não faz nada, mas contém um método Avaliar() para nossos propósitos. 
+            //Atenção: Isso deixa a aplicação app aberto a ataques de injeção,
+            //Estou fazendo apenas para demonstração .
+            string TempModuleSource = "namespace ns{" +
+                                      "using System;" +
+                                      "class class1{" +
+                                      "public static double Evaluate(){return " + command + ";}}} ";  //Calcula a expressão
+
+            CompilerResults cr = mCodeProvider.CompileAssemblyFromSource(cp, TempModuleSource);
+            if (cr.Errors.Count > 0)
+            {
+                //Se um erro de compilação é gerado, iremos lançar uma exceção
+                //A sintaxe estava errado - novamente, isso é deixado ao implementador para verificar sintaxe antes
+                //Chamando a função. O código de chamada pode prender isso em um laço try, e notificar o usuário
+                //O comando não foi compreendido, por exemplo.
+                throw new ArgumentException("A expressão não pode ser avaliada, utiliza uma expressão C# válida...");
+            }
+            else
+            {
+                MethodInfo Methinfo = cr.CompiledAssembly.GetType("ns.class1").GetMethod("Evaluate");
+                return (double)Methinfo.Invoke(null, null);
+            }
+        }
+
         private void btn1_Click(object sender, EventArgs e)
         {
-            if (res)
-                txbVisor.Text = "";
-            res = false;
-            if (res == false)
-            {
-                txbVisor.Text += Convert.ToString(1);
-                if (n1 != 0)
-                    n2 = 1;
-                else n1 = 1;
-            }
+            txbVisor.Text = txbVisor.Text + 1;
         }
 
         private void btn2_Click(object sender, EventArgs e)
         {
-            if (res)
-                txbVisor.Text = "";
-            res = false;
-            if (res == false)
-            {
-                txbVisor.Text += Convert.ToString(2);
-                if (n1 != 0)
-                    n2 = 2;
-                else n1 = 2;
-            } 
+            txbVisor.Text = txbVisor.Text + 2;
         }
 
         private void btn3_Click(object sender, EventArgs e)
         {
-            if (res)
-                txbVisor.Text = "";
-            res = false;
-            if (res == false)
-            {
-                txbVisor.Text += Convert.ToString(3);
-                if (n1 != 0)
-                    n2 = 3;
-                else n1 = 3;
-            } 
+            txbVisor.Text = txbVisor.Text + 3;
         }
 
         private void btn4_Click(object sender, EventArgs e)
         {
-            if (res)
-                txbVisor.Text = "";
-            res = false;
-            if (res == false)
-            {
-                txbVisor.Text += Convert.ToString(4);
-                if (n1 != 0)
-                    n2 = 4;
-                else n1 = 4;
-            }
+            txbVisor.Text = txbVisor.Text + 4;
         }
 
         private void btn5_Click(object sender, EventArgs e)
         {
-            if (res)
-                txbVisor.Text = "";
-            res = false;
-            if (res == false)
-            {
-                txbVisor.Text += Convert.ToString(5);
-                if (n1 != 0)
-                    n2 = 5;
-                else n1 = 5;
-            } 
+            txbVisor.Text = txbVisor.Text + 5;
         }
 
         private void btn6_Click(object sender, EventArgs e)
         {
-            if (res)
-                txbVisor.Text = "";
-            res = false;
-            if (res == false)
-            {
-                txbVisor.Text += Convert.ToString(6);
-                if (n1 != 0)
-                    n2 = 6;
-                else n1 = 6;
-            } 
+            txbVisor.Text = txbVisor.Text + 6;
         }
 
         private void btn7_Click(object sender, EventArgs e)
         {
-            if (res)
-                txbVisor.Text = "";
-            res = false;
-            if (res == false)
-            {
-                txbVisor.Text += Convert.ToString(7);
-                if (n1 != 0)
-                    n2 = 7;
-                else n1 = 7;
-            }
+            txbVisor.Text = txbVisor.Text + 7;
         }
 
         private void btn8_Click(object sender, EventArgs e)
         {
-            if (res)
-                txbVisor.Text = "";
-            res = false;
-            if (res == false)
-            {
-                txbVisor.Text += Convert.ToString(8);
-                if (n1 != 0)
-                    n2 = 8;
-                else n1 = 8;
-            }
+            txbVisor.Text = txbVisor.Text + 8;
         }
 
         private void btn9_Click(object sender, EventArgs e)
         {
-            if (res)
-                txbVisor.Text = "";
-            res = false;
-            if (res == false)
-            {
-                txbVisor.Text += Convert.ToString(9);
-                if (n1 != 0)
-                    n2 = 9;
-                else n1 = 9;
-            }
+           txbVisor.Text = txbVisor.Text + 9;
         }
 
         private void btn0_Click(object sender, EventArgs e)
         {
-            if (res)
-                txbVisor.Text = "";
-            res = false;
-            if (res == false)
-            {
-                txbVisor.Text += Convert.ToString(0);
-                if (n1 != 0)
-                    n2 = 0;
-                else n1 = 0;
-            } 
-            //txbVisor.Text = txbVisor.Text + 0;
-            /*mais simples e também funciona, mas na hora de fazer a expressão
-             pode ser melhor para verificar os valores e na entrada de mais números*/ 
+            txbVisor.Text = txbVisor.Text + 0;
         }
 
         private void btnAdicao_Click(object sender, EventArgs e)
         {
-            operacao = 1; //função de adição
-            variavel1 = System.Convert.ToDouble(txbVisor.Text); //armazenando o valor do visor
-            txbVisor.Text = ""; //zerado para receber o segundo número
+            txbVisor.Text = txbVisor.Text + " + ";
         }
 
         private void btnSub_Click(object sender, EventArgs e)
         {
-            operacao = 2;
-            variavel1 = System.Convert.ToDouble(txbVisor.Text);
-            txbVisor.Text = "";
+            txbVisor.Text = txbVisor.Text + " - ";
         }
 
         private void btnMult_Click(object sender, EventArgs e)
         {
-            operacao = 3;
-            variavel1 = System.Convert.ToDouble(txbVisor.Text);
-            txbVisor.Text = "";
+            txbVisor.Text = txbVisor.Text + " * ";
         }
 
         private void btnDiv_Click(object sender, EventArgs e)
         {
-            operacao = 4;
-            variavel1 = System.Convert.ToDouble(txbVisor.Text);
-            txbVisor.Text = "";
+            txbVisor.Text = txbVisor.Text + " / ";
         }
 
         private void btnIgual_Click(object sender, EventArgs e)
         {
-            n2 = Convert.ToDouble(txbVisor.Text);
 
-            if (operacao == 1)
-                resultado = variavel1 + n2;
+            try
+            {
+                txbResultado.Text = ProcessarCommando(txbVisor.Text).ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao avaliar a expressão..." + ex.Message.ToString() + ".");
+            }
 
-            if (operacao == 2)
-                resultado = variavel1 - n2;
-
-            if (operacao == 3)
-                resultado = variavel1 * n2;
-
-            if (operacao == 4)
-                resultado = variavel1 / n2;
-            
-            txbVisor.Text = Convert.ToString(resultado);
-            
-            variavel1 = System.Convert.ToDouble(txbVisor.Text);
-            
-            res = true;
-
-            //MessageBox.Show(); //ABRE UMA JANELA COM MENSAGEM
         }
 
         private void btnC_Click(object sender, EventArgs e)
         {
             txbVisor.Text = "";
-            n1 = 0;
-            variavel1 = 0;
-            n2 = 0;
+            txbResultado.Text = "";
         }
+
     }
 }

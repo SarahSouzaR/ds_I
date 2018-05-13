@@ -123,7 +123,6 @@ namespace Calculadora_2
 
         private void btnIgual_Click(object sender, EventArgs e)
         {
-
             try
             {
                 txbResultado.Text = ProcessarCommando(txbVisor.Text).ToString();
@@ -132,7 +131,6 @@ namespace Calculadora_2
             {
                 MessageBox.Show("Erro ao avaliar a expressão..." + ex.Message.ToString() + ".");
             }
-
         }
 
         private void btnC_Click(object sender, EventArgs e)
@@ -140,6 +138,5 @@ namespace Calculadora_2
             txbVisor.Text = "";
             txbResultado.Text = "";
         }
-
     }
 }

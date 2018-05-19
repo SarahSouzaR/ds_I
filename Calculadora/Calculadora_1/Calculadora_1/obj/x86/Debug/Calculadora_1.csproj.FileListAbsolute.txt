@@ -23,3 +23,5 @@ F:\Etec II - 2 SEM\DS I\Calculadora_1\Calculadora_1\bin\Debug\Calculadora_1.pdb
 F:\Etec II - 2 SEM\DS I\Calculadora_1\Calculadora_1\obj\x86\Debug\Calculadora_1.Form1.resources
 F:\Etec II - 2 SEM\DS I\Calculadora_1\Calculadora_1\obj\x86\Debug\Calculadora_1.Properties.Resources.resources
 F:\Etec II - 2 SEM\DS I\Calculadora_1\Calculadora_1\obj\x86\Debug\Calculadora_1.csproj.GenerateResource.Cache
+C:\Users\Sarah\Desktop\PortableGit\ds_I\Calculadora\Calculadora_1\Calculadora_1\obj\x86\Debug\Calculadora_1.exe
+C:\Users\Sarah\Desktop\PortableGit\ds_I\Calculadora\Calculadora_1\Calculadora_1\obj\x86\Debug\Calculadora_1.pdb

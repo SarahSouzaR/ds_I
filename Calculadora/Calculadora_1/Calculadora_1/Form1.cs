@@ -57,5 +57,10 @@ namespace Calculadora_1
 
         }
 
+        private void txbValorA_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

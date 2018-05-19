@@ -56,6 +56,7 @@
             this.txbValorA.Name = "txbValorA";
             this.txbValorA.Size = new System.Drawing.Size(79, 22);
             this.txbValorA.TabIndex = 1;
+            this.txbValorA.TextChanged += new System.EventHandler(this.txbValorA_TextChanged);
             // 
             // lblValorB
             // 

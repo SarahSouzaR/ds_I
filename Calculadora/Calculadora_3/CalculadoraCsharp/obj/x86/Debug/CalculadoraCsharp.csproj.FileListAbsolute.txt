@@ -1,0 +1,7 @@
+F:\Etec II - 2 SEM\DS I\Calculadora_3\CalculadoraCsharp\bin\Debug\CalculadoraCsharp.exe
+F:\Etec II - 2 SEM\DS I\Calculadora_3\CalculadoraCsharp\bin\Debug\CalculadoraCsharp.pdb
+F:\Etec II - 2 SEM\DS I\Calculadora_3\CalculadoraCsharp\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+F:\Etec II - 2 SEM\DS I\Calculadora_3\CalculadoraCsharp\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+F:\Etec II - 2 SEM\DS I\Calculadora_3\CalculadoraCsharp\obj\x86\Debug\CalculadoraCsharp.csproj.GenerateResource.Cache
+F:\Etec II - 2 SEM\DS I\Calculadora_3\CalculadoraCsharp\obj\x86\Debug\CalculadoraCsharp.exe
+F:\Etec II - 2 SEM\DS I\Calculadora_3\CalculadoraCsharp\obj\x86\Debug\CalculadoraCsharp.pdb

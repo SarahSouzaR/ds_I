@@ -1,0 +1,8 @@
+G:\Etec II - 2 SEM\DS I\Menus\Menus\obj\x86\Debug\Form1.frmMenu.resources
+G:\Etec II - 2 SEM\DS I\Menus\Menus\obj\x86\Debug\Form1.frmTeste1.resources
+G:\Etec II - 2 SEM\DS I\Menus\Menus\obj\x86\Debug\Form1.Properties.Resources.resources
+G:\Etec II - 2 SEM\DS I\Menus\Menus\obj\x86\Debug\Menus.csproj.GenerateResource.Cache
+G:\Etec II - 2 SEM\DS I\Menus\Menus\bin\Debug\Menus.exe
+G:\Etec II - 2 SEM\DS I\Menus\Menus\bin\Debug\Menus.pdb
+G:\Etec II - 2 SEM\DS I\Menus\Menus\obj\x86\Debug\Menus.exe
+G:\Etec II - 2 SEM\DS I\Menus\Menus\obj\x86\Debug\Menus.pdb

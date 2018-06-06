@@ -1,0 +1,14 @@
+G:\Etec II - 2 SEM\DS I\Ativ_05_junho\Ativ_05_junho\obj\x86\Debug\Atividade1_7.Exer1.resources
+G:\Etec II - 2 SEM\DS I\Ativ_05_junho\Ativ_05_junho\obj\x86\Debug\Atividade1_7.Exer2.resources
+G:\Etec II - 2 SEM\DS I\Ativ_05_junho\Ativ_05_junho\obj\x86\Debug\Atividade1_7.Exer3.resources
+G:\Etec II - 2 SEM\DS I\Ativ_05_junho\Ativ_05_junho\obj\x86\Debug\Atividade1_7.Exer4.resources
+G:\Etec II - 2 SEM\DS I\Ativ_05_junho\Ativ_05_junho\obj\x86\Debug\Atividade1_7.Exer5.resources
+G:\Etec II - 2 SEM\DS I\Ativ_05_junho\Ativ_05_junho\obj\x86\Debug\Atividade1_7.Exer6.resources
+G:\Etec II - 2 SEM\DS I\Ativ_05_junho\Ativ_05_junho\obj\x86\Debug\Atividade1_7.Exer7.resources
+G:\Etec II - 2 SEM\DS I\Ativ_05_junho\Ativ_05_junho\obj\x86\Debug\Atividade1_7.Properties.Resources.resources
+G:\Etec II - 2 SEM\DS I\Ativ_05_junho\Ativ_05_junho\obj\x86\Debug\Ativ_05_junho.csproj.GenerateResource.Cache
+G:\Etec II - 2 SEM\DS I\Ativ_05_junho\Ativ_05_junho\bin\Debug\Ativ_05_junho.exe
+G:\Etec II - 2 SEM\DS I\Ativ_05_junho\Ativ_05_junho\bin\Debug\Ativ_05_junho.pdb
+G:\Etec II - 2 SEM\DS I\Ativ_05_junho\Ativ_05_junho\obj\x86\Debug\Atividade1_7.frmAtividades.resources
+G:\Etec II - 2 SEM\DS I\Ativ_05_junho\Ativ_05_junho\obj\x86\Debug\Ativ_05_junho.exe
+G:\Etec II - 2 SEM\DS I\Ativ_05_junho\Ativ_05_junho\obj\x86\Debug\Ativ_05_junho.pdb

@@ -1,0 +1,9 @@
+G:\Etec II - 2 SEM\DS I\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.Cadastro.resources
+G:\Etec II - 2 SEM\DS I\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.frm_Cliente.resources
+G:\Etec II - 2 SEM\DS I\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.Properties.Resources.resources
+G:\Etec II - 2 SEM\DS I\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.csproj.GenerateResource.Cache
+G:\Etec II - 2 SEM\DS I\PrjCliente_conexao\PrjCliente_conexao\bin\Debug\PrjCliente_conexao.exe
+G:\Etec II - 2 SEM\DS I\PrjCliente_conexao\PrjCliente_conexao\bin\Debug\PrjCliente_conexao.pdb
+G:\Etec II - 2 SEM\DS I\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.exe
+G:\Etec II - 2 SEM\DS I\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.pdb
+G:\Etec II - 2 SEM\DS I\PrjCliente_conexao\PrjCliente_conexao\bin\Debug\PrjCliente_conexao.exe.config

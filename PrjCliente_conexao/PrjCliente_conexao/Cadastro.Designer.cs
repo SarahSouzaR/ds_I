@@ -52,24 +52,18 @@
             this.lblPesquisa = new System.Windows.Forms.Label();
             this.txbPesquisa = new System.Windows.Forms.TextBox();
             this.dgv_clientes = new System.Windows.Forms.DataGridView();
+            this.tbclienteBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bD_Cliente1DataSet = new PrjCliente_conexao.BD_Cliente1DataSet();
+            this.tb_clienteTableAdapter = new PrjCliente_conexao.BD_Cliente1DataSetTableAdapters.tb_clienteTableAdapter();
             this.Matricula = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nasc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Endereco = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.numero = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cep = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bD_Cliente1DataSet = new PrjCliente_conexao.BD_Cliente1DataSet();
-            this.tbclienteBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.tb_clienteTableAdapter = new PrjCliente_conexao.BD_Cliente1DataSetTableAdapters.tb_clienteTableAdapter();
-            this.matriculaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nomeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nascDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.enderecoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.numeroDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cepDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_clientes)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bD_Cliente1DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbclienteBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bD_Cliente1DataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // lblMatricula
@@ -161,6 +155,7 @@
             // msk_cep
             // 
             this.msk_cep.Location = new System.Drawing.Point(352, 180);
+            this.msk_cep.Mask = "00000-999";
             this.msk_cep.Name = "msk_cep";
             this.msk_cep.Size = new System.Drawing.Size(100, 21);
             this.msk_cep.TabIndex = 11;
@@ -181,6 +176,7 @@
             this.btnIncluir.TabIndex = 13;
             this.btnIncluir.Text = "Incluir";
             this.btnIncluir.UseVisualStyleBackColor = true;
+            this.btnIncluir.Click += new System.EventHandler(this.btnIncluir_Click);
             // 
             // btnExcluir
             // 
@@ -271,18 +267,26 @@
             this.Nasc,
             this.Endereco,
             this.numero,
-            this.cep,
-            this.matriculaDataGridViewTextBoxColumn,
-            this.nomeDataGridViewTextBoxColumn,
-            this.nascDataGridViewTextBoxColumn,
-            this.enderecoDataGridViewTextBoxColumn,
-            this.numeroDataGridViewTextBoxColumn,
-            this.cepDataGridViewTextBoxColumn});
+            this.cep});
             this.dgv_clientes.DataSource = this.tbclienteBindingSource;
-            this.dgv_clientes.Location = new System.Drawing.Point(45, 283);
+            this.dgv_clientes.Location = new System.Drawing.Point(45, 285);
             this.dgv_clientes.Name = "dgv_clientes";
             this.dgv_clientes.Size = new System.Drawing.Size(551, 105);
             this.dgv_clientes.TabIndex = 24;
+            // 
+            // tbclienteBindingSource
+            // 
+            this.tbclienteBindingSource.DataMember = "tb_cliente";
+            this.tbclienteBindingSource.DataSource = this.bD_Cliente1DataSet;
+            // 
+            // bD_Cliente1DataSet
+            // 
+            this.bD_Cliente1DataSet.DataSetName = "BD_Cliente1DataSet";
+            this.bD_Cliente1DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tb_clienteTableAdapter
+            // 
+            this.tb_clienteTableAdapter.ClearBeforeFill = true;
             // 
             // Matricula
             // 
@@ -313,56 +317,6 @@
             // 
             this.cep.HeaderText = "cep";
             this.cep.Name = "cep";
-            // 
-            // bD_Cliente1DataSet
-            // 
-            this.bD_Cliente1DataSet.DataSetName = "BD_Cliente1DataSet";
-            this.bD_Cliente1DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // tbclienteBindingSource
-            // 
-            this.tbclienteBindingSource.DataMember = "tb_cliente";
-            this.tbclienteBindingSource.DataSource = this.bD_Cliente1DataSet;
-            // 
-            // tb_clienteTableAdapter
-            // 
-            this.tb_clienteTableAdapter.ClearBeforeFill = true;
-            // 
-            // matriculaDataGridViewTextBoxColumn
-            // 
-            this.matriculaDataGridViewTextBoxColumn.DataPropertyName = "Matricula";
-            this.matriculaDataGridViewTextBoxColumn.HeaderText = "Matricula";
-            this.matriculaDataGridViewTextBoxColumn.Name = "matriculaDataGridViewTextBoxColumn";
-            // 
-            // nomeDataGridViewTextBoxColumn
-            // 
-            this.nomeDataGridViewTextBoxColumn.DataPropertyName = "Nome";
-            this.nomeDataGridViewTextBoxColumn.HeaderText = "Nome";
-            this.nomeDataGridViewTextBoxColumn.Name = "nomeDataGridViewTextBoxColumn";
-            // 
-            // nascDataGridViewTextBoxColumn
-            // 
-            this.nascDataGridViewTextBoxColumn.DataPropertyName = "Nasc";
-            this.nascDataGridViewTextBoxColumn.HeaderText = "Nasc";
-            this.nascDataGridViewTextBoxColumn.Name = "nascDataGridViewTextBoxColumn";
-            // 
-            // enderecoDataGridViewTextBoxColumn
-            // 
-            this.enderecoDataGridViewTextBoxColumn.DataPropertyName = "Endereco";
-            this.enderecoDataGridViewTextBoxColumn.HeaderText = "Endereco";
-            this.enderecoDataGridViewTextBoxColumn.Name = "enderecoDataGridViewTextBoxColumn";
-            // 
-            // numeroDataGridViewTextBoxColumn
-            // 
-            this.numeroDataGridViewTextBoxColumn.DataPropertyName = "Numero";
-            this.numeroDataGridViewTextBoxColumn.HeaderText = "Numero";
-            this.numeroDataGridViewTextBoxColumn.Name = "numeroDataGridViewTextBoxColumn";
-            // 
-            // cepDataGridViewTextBoxColumn
-            // 
-            this.cepDataGridViewTextBoxColumn.DataPropertyName = "Cep";
-            this.cepDataGridViewTextBoxColumn.HeaderText = "Cep";
-            this.cepDataGridViewTextBoxColumn.Name = "cepDataGridViewTextBoxColumn";
             // 
             // Cadastro
             // 
@@ -399,8 +353,8 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Cadastro_FormClosing);
             this.Load += new System.EventHandler(this.Cadastro_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_clientes)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bD_Cliente1DataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbclienteBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bD_Cliente1DataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -431,20 +385,14 @@
         private System.Windows.Forms.Label lblPesquisa;
         private System.Windows.Forms.TextBox txbPesquisa;
         private System.Windows.Forms.DataGridView dgv_clientes;
+        private BD_Cliente1DataSet bD_Cliente1DataSet;
+        private System.Windows.Forms.BindingSource tbclienteBindingSource;
+        private BD_Cliente1DataSetTableAdapters.tb_clienteTableAdapter tb_clienteTableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn Matricula;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nome;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nasc;
         private System.Windows.Forms.DataGridViewTextBoxColumn Endereco;
         private System.Windows.Forms.DataGridViewTextBoxColumn numero;
         private System.Windows.Forms.DataGridViewTextBoxColumn cep;
-        private BD_Cliente1DataSet bD_Cliente1DataSet;
-        private System.Windows.Forms.BindingSource tbclienteBindingSource;
-        private BD_Cliente1DataSetTableAdapters.tb_clienteTableAdapter tb_clienteTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn matriculaDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nomeDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nascDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn enderecoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn numeroDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cepDataGridViewTextBoxColumn;
     }
 }

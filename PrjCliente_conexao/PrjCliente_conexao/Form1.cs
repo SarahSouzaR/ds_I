@@ -19,8 +19,13 @@ namespace PrjCliente_conexao
         private void cadastrosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Cadastro cad = new Cadastro();
-            cad.MdiParent = this;
+            //cad.MdiParent = this;
             cad.Show();
+        }
+
+        private void frm_Cliente_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

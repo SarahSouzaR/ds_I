@@ -11,8 +11,7 @@ namespace PrjCliente_conexao
     class Conexao
     {
         //Declarando o objeto de conexão passando como parâmetro a string de conexão
-        private static string connString = @"Provider=Microsoft.ACE.OLEDB.12.0;
-                        Data Source=|DataDirectory|\BD_Cliente1.accdb;Persist Security Info=False;";
+        private static string connString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Aluno\Documents\PrjCliente_conexao\PrjCliente_conexao\bin\Debug\BD_Cliente1.accdb;";
 
         //variável que representa a conexao com o banco
         private static OleDbConnection conn = null;

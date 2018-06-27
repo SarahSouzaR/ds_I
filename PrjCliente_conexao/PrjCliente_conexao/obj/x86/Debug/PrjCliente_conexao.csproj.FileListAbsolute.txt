@@ -16,3 +16,15 @@ G:\Etec II - 2 SEM\DS I\Git\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\
 G:\Etec II - 2 SEM\DS I\Git\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.frm_Cliente.resources
 G:\Etec II - 2 SEM\DS I\Git\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.Properties.Resources.resources
 G:\Etec II - 2 SEM\DS I\Git\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.csproj.GenerateResource.Cache
+G:\PrjCliente_conexao\PrjCliente_conexao\bin\Debug\PrjCliente_conexao.exe.config
+G:\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.exe
+G:\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.pdb
+C:\Users\Aluno\Documents\PrjCliente_conexao\PrjCliente_conexao\bin\Debug\PrjCliente_conexao.exe.config
+C:\Users\Aluno\Documents\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.exe
+C:\Users\Aluno\Documents\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.pdb
+C:\Users\Aluno\Documents\PrjCliente_conexao\PrjCliente_conexao\bin\Debug\PrjCliente_conexao.exe
+C:\Users\Aluno\Documents\PrjCliente_conexao\PrjCliente_conexao\bin\Debug\PrjCliente_conexao.pdb
+C:\Users\Aluno\Documents\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.Cadastro.resources
+C:\Users\Aluno\Documents\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.frm_Cliente.resources
+C:\Users\Aluno\Documents\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.Properties.Resources.resources
+C:\Users\Aluno\Documents\PrjCliente_conexao\PrjCliente_conexao\obj\x86\Debug\PrjCliente_conexao.csproj.GenerateResource.Cache

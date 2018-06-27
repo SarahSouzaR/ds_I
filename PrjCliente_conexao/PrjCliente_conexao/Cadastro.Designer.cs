@@ -55,12 +55,6 @@
             this.tbclienteBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bD_Cliente1DataSet = new PrjCliente_conexao.BD_Cliente1DataSet();
             this.tb_clienteTableAdapter = new PrjCliente_conexao.BD_Cliente1DataSetTableAdapters.tb_clienteTableAdapter();
-            this.Matricula = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nasc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Endereco = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.numero = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cep = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_clientes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbclienteBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bD_Cliente1DataSet)).BeginInit();
@@ -176,7 +170,6 @@
             this.btnIncluir.TabIndex = 13;
             this.btnIncluir.Text = "Incluir";
             this.btnIncluir.UseVisualStyleBackColor = true;
-            this.btnIncluir.Click += new System.EventHandler(this.btnIncluir_Click);
             // 
             // btnExcluir
             // 
@@ -261,13 +254,6 @@
             // 
             this.dgv_clientes.AutoGenerateColumns = false;
             this.dgv_clientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_clientes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Matricula,
-            this.Nome,
-            this.Nasc,
-            this.Endereco,
-            this.numero,
-            this.cep});
             this.dgv_clientes.DataSource = this.tbclienteBindingSource;
             this.dgv_clientes.Location = new System.Drawing.Point(45, 285);
             this.dgv_clientes.Name = "dgv_clientes";
@@ -287,36 +273,6 @@
             // tb_clienteTableAdapter
             // 
             this.tb_clienteTableAdapter.ClearBeforeFill = true;
-            // 
-            // Matricula
-            // 
-            this.Matricula.HeaderText = "Matricula";
-            this.Matricula.Name = "Matricula";
-            // 
-            // Nome
-            // 
-            this.Nome.HeaderText = "Nome";
-            this.Nome.Name = "Nome";
-            // 
-            // Nasc
-            // 
-            this.Nasc.HeaderText = "Nasc";
-            this.Nasc.Name = "Nasc";
-            // 
-            // Endereco
-            // 
-            this.Endereco.HeaderText = "Endereco";
-            this.Endereco.Name = "Endereco";
-            // 
-            // numero
-            // 
-            this.numero.HeaderText = "numero";
-            this.numero.Name = "numero";
-            // 
-            // cep
-            // 
-            this.cep.HeaderText = "cep";
-            this.cep.Name = "cep";
             // 
             // Cadastro
             // 
@@ -352,6 +308,7 @@
             this.Text = "Cadastro de Clientes";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Cadastro_FormClosing);
             this.Load += new System.EventHandler(this.Cadastro_Load);
+            //this.Shown += new System.EventHandler(this.Cadastro_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_clientes)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbclienteBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bD_Cliente1DataSet)).EndInit();
@@ -388,11 +345,5 @@
         private BD_Cliente1DataSet bD_Cliente1DataSet;
         private System.Windows.Forms.BindingSource tbclienteBindingSource;
         private BD_Cliente1DataSetTableAdapters.tb_clienteTableAdapter tb_clienteTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Matricula;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nome;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nasc;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Endereco;
-        private System.Windows.Forms.DataGridViewTextBoxColumn numero;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cep;
     }
 }

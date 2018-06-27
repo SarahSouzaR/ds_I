@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Data.OleDb;
-using System.Data;
 
 namespace PrjCliente_conexao
 {
@@ -24,24 +23,32 @@ namespace PrjCliente_conexao
 
         private void carregar_grid()
         {
+            //se não der certo colocar em um try
             //Determine a query desejada
-            _query = "Select * from clientes";
-            //declare o objeto DataCommand passando a query e o objeto de conexão
-            OleDbCommand _dataCommand = new OleDbCommand(_query, conn);
-            //execute o método ExecuteReader que retornará um DataReader preenchido com a query
-
-            dr_clientes = _dataCommand.ExecuteReader();
-            //Teste para verificar se retornaram linhas
-            if (dr_clientes.HasRows == true)
+            try
             {
-                bs_clientes.DataSource = dr_clientes;
-                dgv_clientes.DataSource = bs_clientes;
-                igualar_text();
+                _query = "Select * from tb_cliente";
+                //declare o objeto DataCommand passando a query e o objeto de conexão
+                OleDbCommand _dataCommand = new OleDbCommand(_query, conn);
+                //execute o método ExecuteReade r que retornará um DataReader preenchido com a query
+
+                dr_clientes = _dataCommand.ExecuteReader();
+                //Teste para verificar se retornaram linhas
+                if (dr_clientes.HasRows == true)
+                {
+                    bs_clientes.DataSource = dr_clientes;
+                    dgv_clientes.DataSource = bs_clientes;
+                    igualar_text();
+                }
+
+                else
+                {
+                    MessageBox.Show("Não temos clientes cadastrados!!!", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
             }
-
-            else
+            catch (Exception e)
             {
-                MessageBox.Show("Não temos clientes cadastrados!!!", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Erro bla");
             }
         }
 
@@ -77,12 +84,21 @@ namespace PrjCliente_conexao
             }
         }
 
+
+
         private void Cadastro_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'bD_Cliente1DataSet.tb_cliente' table. You can move, or remove it, as needed.
-            this.tb_clienteTableAdapter.Fill(this.bD_Cliente1DataSet.tb_cliente);
-            //Alimenta o datagridview com dados
-            carregar_grid();
+            try
+            {
+                // TODO: This line of code loads data into the 'bD_Cliente1DataSet.tb_cliente' table. You can move, or remove it, as needed.
+                this.tb_clienteTableAdapter.Fill(this.bD_Cliente1DataSet.tb_cliente);
+                //Alimenta o datagridview com dados
+                carregar_grid();
+            }
+            catch (Exception exce)
+            {
+                MessageBox.Show("Erro2222");
+            }
         }
 
         private void dgv_clientes_Click(object sender, EventArgs e)
